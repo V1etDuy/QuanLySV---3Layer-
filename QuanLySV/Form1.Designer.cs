@@ -54,13 +54,14 @@
             // 
             // buttonSeach
             // 
+            this.buttonSeach.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.buttonSeach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSeach.Location = new System.Drawing.Point(385, 31);
             this.buttonSeach.Name = "buttonSeach";
             this.buttonSeach.Size = new System.Drawing.Size(122, 28);
             this.buttonSeach.TabIndex = 2;
             this.buttonSeach.Text = "Search";
-            this.buttonSeach.UseVisualStyleBackColor = true;
+            this.buttonSeach.UseVisualStyleBackColor = false;
             this.buttonSeach.Click += new System.EventHandler(this.buttonSeach_Click);
             // 
             // TextSearch
@@ -152,7 +153,6 @@
             this.comboBoxLopSH.Name = "comboBoxLopSH";
             this.comboBoxLopSH.Size = new System.Drawing.Size(188, 33);
             this.comboBoxLopSH.TabIndex = 6;
-            this.comboBoxLopSH.SelectedIndex = 0;
             // 
             // Form1
             // 
